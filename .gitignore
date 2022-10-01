@@ -40,3 +40,8 @@ next-env.d.ts
 *.class
 *.lst
 *.jar
+
+#caching file
+.next/cache/webpack/client-development/
+.next/trace
+public/sw.js.map
