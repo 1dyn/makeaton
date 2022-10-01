@@ -42,6 +42,6 @@ next-env.d.ts
 *.jar
 
 #caching file
-.next/cache/webpack/client-development/
-.next/trace
-public/sw.js.map
+frontend/.next/cache/webpack/client-development/
+frontend/.next/trace
+frontend/public/sw.js.map
