@@ -21,9 +21,9 @@ public class TestController {
     private UserService userService;
 
     @GetMapping(value = "/getUser")
-    public List<UserDO> getUser() {
-        log.info(String.valueOf(userService.getUsers()));
-        return userService.getUsers();   
+    public void getUser() {
+//        log.info(String.valueOf(userService.getUsers()));
+        log.info("test");
     }
     
 }
